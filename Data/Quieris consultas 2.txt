@@ -1,0 +1,92 @@
+SELECT *
+FROM cuentas
+WHERE TIPO_CUENTA = x
+ORDER BY pO
+GROUP BY pG;
+
+SELECT *
+FROM cuentas
+WHERE SALDO BETWEEN x AND y
+ORDER BY pO
+GROUP BY pG;
+
+SELECT *
+FROM cuentas
+WHERE FECHA_CREACION BETWEEN pI AND pF
+ORDER BY pO
+GROUP BY pG;
+
+SELECT *
+FROM usuarios u, cuentas c, prestamos p, operaciones o
+WHERE u.tipo_id = c.tipo_id AND u.tipo_id = p.tipo_id
+			    AND u.tipo_id = o.tipo_id
+			    AND u.numero_id = c.numero_id
+			    AND u.numero_id = p.numero_id
+			    AND u.numero_id = o.numero_id
+WHERE c.tipo_cuenta = pC
+ORDER BY pO
+GROUP BY pG;
+
+SELECT *
+FROM usuarios u, cuentas c, prestamos p, operaciones o
+WHERE u.tipo_id = c.tipo_id AND u.tipo_id = p.tipo_id
+			    AND u.tipo_id = o.tipo_id
+			    AND u.numero_id = c.numero_id
+			    AND u.numero_id = p.numero_id
+			    AND u.numero_id = o.numero_id
+WHERE c.numero_cuenta = pC
+ORDER BY pO
+GROUP BY pG;
+
+SELECT *
+FROM usuarios u, cuentas c, prestamos p, operaciones o
+WHERE u.tipo_id = c.tipo_id AND u.tipo_id = p.tipo_id
+			    AND u.tipo_id = o.tipo_id
+			    AND u.numero_id = c.numero_id
+			    AND u.numero_id = p.numero_id
+			    AND u.numero_id = o.numero_id
+WHERE c.saldo = pC
+ORDER BY pO
+GROUP BY pG;
+
+SELECT *
+FROM usuarios u, cuentas c, prestamos p, operaciones o
+WHERE u.tipo_id = c.tipo_id AND u.tipo_id = p.tipo_id
+			    AND u.tipo_id = o.tipo_id
+			    AND u.numero_id = c.numero_id
+			    AND u.numero_id = p.numero_id
+			    AND u.numero_id = o.numero_id
+WHERE o.fecha BETWEEN pI AND pF
+ORDER BY pO
+GROUP BY pG;
+
+SELECT *
+FROM usuarios u, cuentas c, prestamos p, operaciones o
+WHERE u.tipo_id = c.tipo_id AND u.tipo_id = p.tipo_id
+			    AND u.tipo_id = o.tipo_id
+			    AND u.numero_id = c.numero_id
+			    AND u.numero_id = p.numero_id
+			    AND u.numero_id = o.numero_id
+WHERE o.valor = pV
+ORDER BY pO
+GROUP BY pG;
+
+SELECT *, AVG(valor), COUNT(tipo)
+FROM operaciones 
+GROUP BY tipo
+ORDER BY COUNT(tipo) desc
+FETCH FIRST 10 ROWS ONLY;
+
+SELECT *, MAX(COUNT(o.tipo))
+FROM usuarios u, operaciones o
+WHERE u.tipo_id = o.tipo_id AND u.numero_id = o.numero_id
+			    AND o.tipo = pT
+GROUP BY o.tipo;
+
+SELECT *, MAX(COUNT(u.numero_id))
+FROM usuarios u, operaciones o
+WHERE u.tipo_id = o.tipo_id AND u.numero_id = o.numero_id
+			    AND o.valor > pV
+GROOUP BY u.numero_id;
+
+

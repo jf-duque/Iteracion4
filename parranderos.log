@@ -1,0 +1,193 @@
+11:42:05,711 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Limpiando la BD de Parranderos
+11:42:05,809 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.persistencia.PersistenciaParranderos] - Borrada la base de datos
+11:42:05,810 (AWT-EventQueue-0) INFO  [uniandes.isis2304.parranderos.negocio.Parranderos] - Limpiando la BD de Parranderos: Listo!
+17:49:19,884 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+17:49:19,884 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+17:49:19,896 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:45:35,286 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario correctos, pero sin crear el esquema
+15:45:35,348 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+15:46:18,342 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba de tabla inexistente incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+15:46:18,343 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+15:46:18,389 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con una base de datos que no existe
+15:46:18,390 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+15:47:00,510 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+15:47:00,510 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+15:47:00,510 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario incorrectos
+15:47:00,511 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+15:47:42,618 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+15:47:42,618 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+15:47:42,619 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos válidos (BD, credenciales, esquema
+15:47:42,619 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+15:48:24,769 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba de acceso normal FALLÓ !!. La excepción generada es: javax.jdo.JDOFatalUserException
+15:48:24,769 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+15:56:37,597 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario correctos, pero sin crear el esquema
+15:56:37,653 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+15:57:20,562 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba de tabla inexistente incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+15:57:20,562 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+15:57:20,566 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con una base de datos que no existe
+15:57:20,566 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+15:58:02,703 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+15:58:02,704 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+15:58:02,704 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario incorrectos
+15:58:02,705 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+15:58:44,831 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+15:58:44,832 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+15:58:44,832 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos válidos (BD, credenciales, esquema
+15:58:44,833 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+15:59:26,954 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba de acceso normal FALLÓ !!. La excepción generada es: javax.jdo.JDOFatalUserException
+15:59:26,955 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+16:08:57,301 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario correctos, pero sin crear el esquema
+16:08:57,368 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+16:09:40,331 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba de tabla inexistente incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+16:09:40,331 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+16:09:40,335 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con una base de datos que no existe
+16:09:40,335 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+16:10:22,433 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+16:10:22,433 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+16:10:22,434 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos de usuario incorrectos
+16:10:22,434 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+16:11:04,571 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+16:11:04,571 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+16:11:04,572 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Probando el acceso a la base de datos con datos válidos (BD, credenciales, esquema
+16:11:04,572 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+16:11:46,684 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - Prueba de acceso normal FALLÓ !!. La excepción generada es: javax.jdo.JDOFatalUserException
+16:11:46,684 (main) INFO  [uniandes.isis2304.parranderos.test.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+16:20:19,059 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando la restricción de UNICIDAD del nombre del tipo de bebida
+16:20:19,108 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+16:21:01,943 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de UNICIDAD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+16:21:01,943 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+16:21:01,946 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando las operaciones CRD sobre TipoBebida
+16:21:01,947 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+16:21:44,081 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de CRD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+16:21:44,081 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+17:20:56,743 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando la restricción de UNICIDAD del nombre del tipo de bebida
+17:20:56,819 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+17:21:39,759 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de UNICIDAD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+17:21:39,760 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+17:21:40,069 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando las operaciones CRD sobre TipoBebida
+17:21:40,070 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+17:22:22,172 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de CRD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+17:22:22,172 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+18:06:57,880 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando la restricción de UNICIDAD del nombre del tipo de bebida
+18:06:57,915 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+18:07:40,458 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de UNICIDAD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+18:07:40,459 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+18:07:40,461 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando las operaciones CRD sobre TipoBebida
+18:07:40,461 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+18:08:22,554 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de CRD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+18:08:22,554 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+18:16:16,908 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando la restricción de UNICIDAD del nombre del tipo de bebida
+18:16:16,942 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+18:16:19,314 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de UNICIDAD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+18:16:19,314 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+NestedThrowables:
+java.sql.SQLException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+18:16:19,316 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando las operaciones CRD sobre TipoBebida
+18:16:19,317 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+18:16:20,434 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de CRD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+18:16:20,434 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+NestedThrowables:
+java.sql.SQLException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+18:16:40,381 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando la restricción de UNICIDAD del nombre del tipo de bebida
+18:16:40,417 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+18:16:42,004 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de UNICIDAD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+18:16:42,004 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+NestedThrowables:
+java.sql.SQLException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+18:16:42,008 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando las operaciones CRD sobre TipoBebida
+18:16:42,008 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+18:16:43,314 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de CRD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+18:16:43,314 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+NestedThrowables:
+java.sql.SQLException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+18:17:48,768 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando la restricción de UNICIDAD del nombre del tipo de bebida
+18:17:48,808 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+18:17:50,620 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de UNICIDAD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+18:17:50,620 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+NestedThrowables:
+java.sql.SQLException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+18:17:50,623 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando las operaciones CRD sobre TipoBebida
+18:17:50,623 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+18:17:51,701 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de CRD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+18:17:51,701 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+NestedThrowables:
+java.sql.SQLException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+18:21:42,316 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando la restricción de UNICIDAD del nombre del tipo de bebida
+18:21:42,349 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+18:21:43,949 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de UNICIDAD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+18:21:43,949 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+NestedThrowables:
+java.sql.SQLException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+18:21:43,954 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Probando las operaciones CRD sobre TipoBebida
+18:21:43,955 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Se encontró un archivo de configuración de tablas válido
+18:21:45,041 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - Prueba de CRD de Tipobebida incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+18:21:45,041 (main) INFO  [uniandes.isis2304.parranderos.test.TipoBebidaTest] - La causa es: javax.jdo.JDOFatalDataStoreException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+NestedThrowables:
+java.sql.SQLException: ORA-01017: nombre de usuario/contraseña no válidos; conexión denegada
+
+18:24:44,467 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+18:24:44,467 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+18:24:44,492 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:25:15,935 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+18:25:15,936 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+18:25:15,949 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:27:22,881 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+18:27:22,882 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+18:27:22,894 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:29:34,606 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+18:29:34,608 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+18:29:34,620 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
+18:31:58,738 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Interfaz
+18:31:58,739 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se aplica configuración indicada en el archivo de configuración
+18:31:58,753 (main) INFO  [uniandes.isis2304.parranderos.interfazApp.InterfazParranderosApp] - Se encontró un archivo de configuración válido: Tablas BD
